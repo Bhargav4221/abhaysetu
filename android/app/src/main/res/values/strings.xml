@@ -1,0 +1,12 @@
+<resources>
+    <style name="Theme.AbhaySetu" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#F4B942</item>
+        <item name="android:statusBarColor">#0B1220</item>
+        <item name="android:navigationBarColor">#0B1220</item>
+        <item name="android:windowBackground">#0B1220</item>
+    </style>
+    <string name="app_name">AbhaySetu</string>
+    <string name="tagline">One Emergency Message. Through Any Available Communication Path.</string>
+    <string name="sos">SOS</string>
+    <string name="offline_saved">SOS saved locally. No communication path is currently available. AbhaySetu will retry automatically when a communication path becomes available.</string>
+</resources>

@@ -1,0 +1,56 @@
+# Secrets
+.env
+.env.local
+.env.production
+*.pem
+*.key
+secrets/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+.coverage
+htmlcov/
+
+# Node
+node_modules/
+web/dist/
+web/.vite/
+*.log
+npm-debug.log*
+
+# Android
+android/.gradle/
+android/app/build/
+android/build/
+android/local.properties
+*.apk
+*.aab
+*.iml
+.idea/
+
+# Hub local DB
+hub/data/
+*.db
+*.db-journal
+*.sqlite3
+
+# Maps cache
+data/maps/
+web/public/tiles/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+!.vscode/extensions.json
